@@ -4,8 +4,13 @@
 
 @layer base {
   @font-face {
-    font-family: "Josefin Sans";
-    font-weight: 700;
-    src: url("/fonts/JosefinSans-Regular.ttf") format("ttf");
+    font-family: "'Josefin Sans'";
+    src: url("/fonts/JosefinSans-Regular.woff2");
   }
+}
+
+.header {
+  background: url("/images/bg-mobile-light.jpg");
+  background-size: cover;
+  height: 25vh;
 }
